@@ -14,11 +14,20 @@
     <!-- css -->
     <link rel="stylesheet" href="styles.css" />
     <title>JS AOS Tutorial</title>
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body class="container text-center">
     <!-- nav -->
-    <nav class="navbar navbar-default">
+    <nav
+      class="navbar navbar-default"
+      data-aos="fade-right"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out-cubic"
+    >
       <div class="navbar-header">
         <h1>Navigation</h1>
       </div>
@@ -90,6 +99,9 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- external JS -->
     <script src="scripts.js"></script>
   </body>
 </html>
