@@ -1,5 +1,5 @@
 # JS-AOS-Tutorial
-This tutorial is a demonstration of how AOS can be used to animate a plain JavaScript website. The complete tutorial can be found [here]()
+This tutorial is a demonstration of how AOS can be used to animate a plain JavaScript website. The complete tutorial can be found [here](https://dev.to/ebereplenty/css-animation-without-css-aos-in-plain-js-and-react-4jfj)
 
 ## Dependencies
 * [AOS](https://michalsnik.github.io/aos/)
